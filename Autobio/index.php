@@ -1,5 +1,5 @@
 <?php
-include"C:\wamp64\www\System\config.php";
+include"./System/config.php";
 
 if($maintenance == true){
 	echo "The site is currectly under maintenance";
@@ -10,7 +10,7 @@ if($maintenance == true){
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" type="text/css" href="/frontend/design/css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./frontend/design/css/stylesheet.css">
 		<title><?php echo $title; echo $separator; echo $description;?> Stylish Autobiography</title>
 		<script src="https://kit.fontawesome.com/b78fdb3e70.js" crossorigin="anonymous"></script>
 		<meta charset="utf-8" />
@@ -48,10 +48,10 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
     	<h1>Birth and Family</h1>
     	
 <div>
-        My Name is Ngozika Blessing Nwachukwu and im 18 years old. I was Born on the 7th of Decebember, 2005 in the city of Aba, Abia, Nigeria.
+        My Name is Ngozika Blessing Nwachukwu and im 18 years old. I was Born on the 7th of Decebember, 2005, in the city of Aba, Abia, Nigeria.
     </div>
     <div>
-        I curently reside in Toronto and I go to Ontario tech university and am currently in secnd year. I live with my 3 sisters; Laura, Karen and Kim.
+        I currently reside in Toronto and I go to Ontario tech university and I am currently in second year. I live with my 3 sisters; Laura, Karen and Kim.
     </div>
     <div>
         I have a fourth sister, Sharon and a brother, David. My parents and brother still live back home and i miss them everyday.	
@@ -64,25 +64,25 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
     	<h1>Childhood</h1>
     	
     <div>
-        I started school around when i was 2 years old. I wnt to pre-kindergarten in aba, Then when we moved to Abuja I went to Kindergarten and primary in Living fountain International.    
+        I started school around when I was 2 years old. I went to pre-kindergarten in Aba, Then when we moved to Abuja I went to Kindergarten and primary in Living fountain International.    
     </div>
     <div>
-       While i was there, I mostly won awrds for best in mathematics and science. Throughout my Kindergarten and Primary Those were the subjects I was Naturally good at and had a genuine interest for.  
+       While I was there, I mostly won awards for best in mathematics and science. Throughout my Kindergarten and Primary, Those were the subjects I was Naturally good at and had a genuine interest for.  
     </div>
     <div>
-    	Looking at how beautiful my older sisters were I never thought I was going to be that pretty so I never really worried nor cared about my Appearance, Grades were always where i shined the most at anyway. 
+    	I never really worried nor cared about my appearance at that time, Grades were always where I shined the most at anyway. 
     </div>
     <div>
         The first friend I ever made was Sharon. We were in the same Kindergarten class. One day whilst in the english lesson, she kept asking the techer to go to the bathroom but she didnt let her.
     </div>
     <div>
-        She enede up peeing on the floor, the teacher screamed at her to clean it up and everyone laughed at her but me. She sterted to cry and I felt like crying when I saw her cry. That is when i realized how empathetic I was. I felt like everyone was laughing at me and hated that.
+        She ended up peeing on the floor, the teacher screamed at her to clean it up and everyone laughed at her but me. She sterted to cry and I felt like crying when I saw her cry. That is when i realized how empathetic I was. I felt like everyone was laughing at me and hated that.
     </div>
     <div>
-    	After she cleened it up, I went to give her a napkin from my lunch bag to clean her tears, Then we became best friends. I was so excited to have my first friend that I got distracted from school and got my first B. I genuinely thought it was the end of the world and cried about it but I learnt how to baalnce having a friend and being a good student.
+    	After she cleaned it up, I went to give her a napkin from my lunch bag to clean her tears, Then we became best friends. I was so excited to have my first friend that I got distracted from school and got my first B. I genuinely thought it was the end of the world and cried about it but I learnt how to baalnce having a friend and being a good student.
     	<div>
     	I really wish I knew where Sharon was today.
-    	Before I left the school I made a whole bunch of new friends as well.
+    	Ans of course before I left the school I made a whole bunch of new friends as well.
     	</div>
 
         <div id="About">
@@ -110,7 +110,7 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
     	This was around the time i decided who I wanted to be in life and part of that reason was because of my father. I was old enough to realize how privileged I am, and how blessed I was to have a comfortable life.		
     		</div>
     		<div>
-    	Thats when I knew I wanted to be an engineer- just like my Father is. It was an amazing idea and i was already good in sciences so I knew it will be a good path to follow so i can be able to give my present and future family a comfortable life just like my dad did.
+    	That's when I knew I wanted to be an engineer- just like my Father is. It was an amazing idea and I was already good in sciences so I knew it will be a good path to follow so I can be able to give my present and future family a comfortable life just like my dad did.
     		</div>
     		<div>
     	I initially decided to do aerospace engineering and become an astronaut, but when I got to highschool I chickened out when I found out you can get stuck in space, and what is one exactly supposed to do in a situation like that?
@@ -119,7 +119,7 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
     	I then decided to persue software engineering because I thought and still think its really cool although I wish it was easier because it gets really stressful. But if it were easy, everyone would do it.
     		</div>
             <div>
-        Anyway, While in this school -which for context was an all girl's boarding school- ironically is what drove my passion for intersectional feminism. Due to a lot of bad experiences I had there, made me want to be a women's rights activist/overall human's rights activist as well in the future, but i want to pursue engineering first.
+        Anyway, While in this school -which for context was an all girl's boarding school- ironically is what drove my passion for intersectional feminism. Due to a lot of bad experiences I had there, made me want to be a women's rights activist/overall human's rights activist, as well in the future, but i want to pursue engineering first.
             </div>
           <div>
         It was not all bad though, I met my current best friend there and made a lot of good friends and meomries on the way, Although I genuinely do not recommend it for anyone.
@@ -132,11 +132,11 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
 	Life to me is surrounding yourself with the right people -that is people you trust with your life. That might seem too much for some people but i would never surround myself with anyone I do not trust or Love.
 </div>
 <div>
-	Life for me is also being authentically yourself and doing/being/surrounding yourself with what and who makes you happy. At the end of the day we can die at any time, of literaaly any cause, so its better taht you try your best to live your life to the fullest. Although I know it is hard. I always think, if I am in a situation that im about to die can i say "I lived a happy and fullfilling life?"
+	Life for me is also being authentically yourself and doing/being/surrounding yourself with what and who makes you happy. At the end of the day we can die at any time, of literaaly any cause, so its better that you try your best to live your life to the fullest. Although I know it is hard. I always think, if I am in a situation that im about to die can I say "I lived a happy and fullfilling life?"
 </div>
 <div>
 	Life for me is also fighting for what you believe in till the end. Even if anyone makes me feel like it doesnt matter or it shouldnt matter that will never stop me for fighting for what I believe is right and fighting for the ones I love.
-	And overall Life is about upholding what you belive/your standards and never letting anyone or anything come between that.
+	And overall Life is about upholding what you belive or your standards and never letting anyone or anything come between that.
 </div>
 
 <div id= "Overall">
@@ -159,7 +159,6 @@ href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text
 
 </div>
 </div>
-
 
 
     	</div>
